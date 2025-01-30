@@ -328,6 +328,20 @@ span.sticky-arrow i {
         bottom: -83px;
     }
 }
+@media (max-width:500px) {
+    .dostoevsky .container p.text {
+        position: relative;
+        top: -10px;
+        font-size: 20px;
+        text-align: justify;
+        line-height: 1.6;
+    }
+}
+@media (max-width:400px) {
+    .dostoevsky .container .info {
+        bottom: -40px;
+    }
+}
 @media (max-width:767px) {
     .dostoevsky .container p.name,
     .dostoevsky .container p.date {
@@ -812,7 +826,7 @@ span.sticky-arrow i {
 .courses .box {
     position: relative;
     background-color: white;
-    background-image: url("../images/Courses/web_design.jpg");
+    background-image: url("../images/courses/web_design-1.jpg");
     background-size: cover;
     color: var(--main-color);
     min-width: 300px;
@@ -858,16 +872,16 @@ span.sticky-arrow i {
     background-image: url("../images/courses/web_design-2.jpg");
 }
 .courses .ai {
-    background-image: url("../images/Courses/ai-1.jpg");
+    background-image: url("../images/courses/ai-1.jpg");
 }
 .courses .se {
-    background-image: url("../images/Courses/se-1.jpg");
+    background-image: url("../images/courses/se-1.jpg");
 }
 .courses .java {
-    background-image: url("../images/Courses/java-1.png");
+    background-image: url("../images/courses/java-1.png");
 }
 .courses .js {
-    background-image: url("../images/Courses/js-1.jpg");
+    background-image: url("../images/courses/js-1.jpg");
 }
 .courses .js a {
     color: var(--main-color);
@@ -1070,19 +1084,19 @@ span.sticky-arrow i {
     }
 }
 .books .DC {
-    background-image: url("../images/Books/discovering-comuters.jpg");
+    background-image: url("../images/books/discovering-comuters.jpg");
 }
 .books .SE {
-    background-image: url("../images/Books/software-engineering.jpg");
+    background-image: url("../images/books/software-engineering.jpg");
 }
 .books .CC {
-    background-image: url("../images/Books/code-complete.jpg");
+    background-image: url("../images/books/code-complete.jpg");
 }
 .books .CS {
-    background-image: url("../images/Books/code-simplicity.jpg");
+    background-image: url("../images/books/code-simplicity.jpg");
 }
 .books .CD {
-    background-image: url("../images/Books/clean-code.jpg");
+    background-image: url("../images/books/clean-code.jpg");
 }
 .books .box::before {
     content: "";
@@ -1675,7 +1689,9 @@ span.sticky-arrow i {
 }
 /* cards side*/
 .stats .container .cards {
-    background-image: url("../images/Stats/stats-image-2.jpg");
+    background-color: #350042;
+    background-color: var(--alt-main-color);
+    background-image: url("../images/stats/stats-image-2.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -2250,7 +2266,7 @@ color: white;
     align-items: center;
     justify-content: center;
     background-color: white;
-    background-image: url("../images/Contact/rocket-01.png");
+    background-image: url("../images/contact/rocket-01.png");
     background-size: cover;
     color: white;
     z-index: 1;
@@ -2564,9 +2580,9 @@ color: white;
 }
 @keyframes change-background {
     0%, 100% {
-        background-image: url("../images/Contact/rocket-01.png");
+        background-image: url("../images/contact/rocket-01.png");
     }
     50% {
-        background-image: url("../images/Contact/astro-00.jpg");
+        background-image: url("../images/contact/astro-00.jpg");
     }
 }
